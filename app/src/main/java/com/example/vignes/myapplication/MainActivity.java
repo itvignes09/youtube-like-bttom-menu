@@ -160,8 +160,12 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed() {
 
         String[] words = temp.split("-");
-        if(words.length==2)
-            finish();
+        if(words.length<=2)
+            if (vpMain.getCurrentItem() != 0) {
+                temp = "";
+                vpMain.setCurrentItem(0);
+            }else
+                finish();
         else {
             temp = temp.replace("-" + words[words.length - 1], "");
             int pos = vpMain.getCurrentItem();
