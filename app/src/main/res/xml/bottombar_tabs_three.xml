@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/bottom_menu_home"
+        title="Home" />
+    <tab
+        id="@+id/tab_deals"
+        icon="@drawable/bottom_menu_deals"
+        title="Deals" />
+    <tab
+        id="@+id/tab_earn"
+        icon="@drawable/bottom_menu_earn"
+        title="Earn" />
+    <tab
+        id="@+id/tab_redeem"
+        icon="@drawable/bottom_menu_redeem"
+        title="Redeem" />
+    <tab
+        id="@+id/tab_account"
+        icon="@drawable/bottom_menu_account"
+        title="Account" />
+</tabs>
